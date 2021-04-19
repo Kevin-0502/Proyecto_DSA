@@ -2,7 +2,7 @@
 
 Desarrollo de Software para android G01T
 
-Nathalie Hidalgo 
+Nathaly Roxana Hidalgo Gomez HG201730
 Kevin Miguel Jiménez Hernández JH200303
 William Obed Gutierrez Flores GF190083
 
