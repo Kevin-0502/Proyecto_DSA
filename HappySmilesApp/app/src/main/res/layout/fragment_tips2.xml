@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/tip1"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tip2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/come_sano"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:textColor="#2C2C2C"
+            android:text="@string/comer_sano_tambi_n_propicia_un_cuidado_de_los_dientes_preventivo_es_decir_existen_ciertos_alimentos_que_favorecen_la_auto_limpieza_de_los_dientes_como_las_manzanas_que_al_morder_arrastran_placa_bacteriana_y_no_se_fija_sta_en_el_esmalte_de_igual_forma_beber_agua_ayuda_a_diluir_la_saliva_para_que_no_se_quede_estancada_en_la_boca_se_encuentre_hidratada_y_fomente_un_aliento_fresco_y_sano"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

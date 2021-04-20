@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DentistApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainblue2</item>
+        <item name="colorPrimaryVariant">@color/lightblue3</item>
+        <item name="colorOnPrimary">@color/mainblue2</item>
+        <item name="titleTextColor">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mainblue2</item>
+        <item name="colorSecondaryVariant">@color/mainblue2</item>
+        <item name="colorOnSecondary">@color/mainblue2</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

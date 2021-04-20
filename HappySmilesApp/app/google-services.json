@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096359008528",
+    "project_id": "dentistapp-386b5",
+    "storage_bucket": "dentistapp-386b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096359008528:android:3e69f76fd3d3282365ad95",
+        "android_client_info": {
+          "package_name": "com.example.dentistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096359008528-fcf5la2ndtas5okjbil4ea005rh2po18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdRQrC1Us07MdXTpirEn8hjTo0ur3aCEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096359008528-fcf5la2ndtas5okjbil4ea005rh2po18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

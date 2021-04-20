@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/tip3"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tip3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/utilice_hilo_dental_diariamente"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:textColor="#2C2C2C"
+            android:text="@string/el_uso_diario_de_hilo_dental_ayuda_a_eliminar_las_bacterias_y_la_placa_que_se_acumula_entre_los_dientes_si_usted_nota_sangre_o_inflamaci_n_debido_al_uso_de_hilo_dental_visite_a_su_dentista_para_usar_hilo_dental_adecuadamente_envuelva_los_extremos_del_hilo_dental_alrededor_de_los_dedos_ndice_de_cada_mano_y_use_el_hilo_dental_entre_cada_diente_y_alrededor_de_ellos"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

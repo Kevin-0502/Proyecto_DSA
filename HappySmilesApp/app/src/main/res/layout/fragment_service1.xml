@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/service1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/examen_bucodental_inicial"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:textColor="#2C2C2C"
+            android:text="@string/el_examen_bucal_inicial_incluye_un_examen_dental_un_diagn_stico_y_las_recomendaciones_correspondientes_al_tratamiento_se_pueden_realizar_durante_el_procedimiento_radiograf_as_para_obtener_un_diagn_stico_adecuado_de_los_dientes"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

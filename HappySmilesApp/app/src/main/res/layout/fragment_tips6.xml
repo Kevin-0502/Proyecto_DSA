@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/tip3"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tip6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/visite_el_dentista_cada_6_meses"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:textColor="#2C2C2C"
+            android:text="@string/es_recomendado_que_visite_a_su_dentista_al_menos_2_veces_al_a_o_para_una_limpieza_y_m_s_frecuentemente_si_usted_tiene_problemas_en_las_enc_as_o_caries_extensas_si_usted_est_sufriendo_de_dolor_de_muelas_o_sangrado_de_enc_as_haga_una_cita_lo_m_s_pronto_posible_su_dentista_puede_ayudar_a_controlar_y_tratar_los_s_ntomas_y_causas"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

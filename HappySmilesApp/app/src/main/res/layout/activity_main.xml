@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#E8F5FF"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/servicesbtn"
+        android:text="@string/servicesbtn"
+        app:icon="@drawable/dentist"
+        app:layout_constraintBottom_toTopOf="@+id/myappointmentsid"
+        app:layout_constraintEnd_toStartOf="@+id/scheduledateid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/MainButtonStyle"
+         />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/scheduledateid"
+        android:text="@string/scheduledatebtn"
+        app:icon="@drawable/appoitment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/servicesbtn"
+        app:layout_constraintTop_toTopOf="@+id/servicesbtn"
+        style="@style/MainButtonStyle"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/myappointmentsid"
+        android:text="@string/myappointmentsbtn"
+        app:icon="@drawable/agenda"
+        app:layout_constraintBottom_toTopOf="@+id/locationid"
+        app:layout_constraintEnd_toStartOf="@+id/tipsid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/servicesbtn"
+        style="@style/MainButtonStyle"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tipsid"
+        android:text="@string/button3"
+        app:icon="@drawable/tipsbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/myappointmentsid"
+        app:layout_constraintTop_toTopOf="@+id/myappointmentsid"
+        style="@style/MainButtonStyle"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/locationid"
+        android:text="@string/locationbtn"
+        app:icon="@drawable/pointer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/contactid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myappointmentsid"
+        style="@style/MainButtonStyle"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/contactid"
+        android:text="@string/contactbtn"
+        app:icon="@drawable/contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/locationid"
+        app:layout_constraintTop_toTopOf="@+id/locationid"
+        style="@style/MainButtonStyle"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

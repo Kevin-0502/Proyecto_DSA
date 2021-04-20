@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/white">
+
+    <ImageView
+        android:src="@drawable/service8"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/carillas_dentales"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#86bbe5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/nunito"
+        android:textSize="18sp"
+        android:textColor="#2C2C2C"
+        android:text="@string/las_carillas_dentales_son_piezas_delgadas_de_porcelana_del_color_del_diente_que_se_cementan_a_las_superficies_delanteras_de_los_dientes_naturales_y_son_una_manera_de_abordar_una_variedad_de_problemas_f_sicos_y_est_ticos"
+        />
+</LinearLayout>
+</ScrollView>

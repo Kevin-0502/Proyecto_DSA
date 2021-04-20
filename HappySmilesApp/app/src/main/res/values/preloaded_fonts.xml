@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/nunito</item>
+        <item>@font/nunito_extralight</item>
+        <item>@font/nunito_sans</item>
+        <item>@font/nunito_sans_bold</item>
+        <item>@font/nunito_sans_semibold</item>
+        <item>@font/nunito_semibold</item>
+        <item>@font/overpass_semibold</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/source_sans_pro_semibold</item>
+        <item>@font/ubuntu_medium</item>
+    </array>
+</resources>

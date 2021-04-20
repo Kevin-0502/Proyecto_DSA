@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/tip1"
+        android:layout_width="wrap_content"
+        android:layout_height="340dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tip1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/cep_llate_los_dientes_al_menos_3_veces_al_d_a"
+        android:textAlignment="center"
+        android:textColor="#86bbe5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/nunito"
+        android:textColor="#2C2C2C"
+        android:text="@string/el_n_mero_de_cepillados_de_dientes_diarios_debe_ser_de_al_menos_tres_veces_al_d_a_y_cada_una_de_ellas_debe_durar_al_menos_dos_minutos_en_caso_de_enc_as_con_problemas_estas_medidas_no_deben_saltarse_bajo_ning_n_concepto_y_por_supuesto_despu_s_del_cepillado_de_la_noche_no_se_podr_comer_ni_beber_nada_excepto_agua"
+        android:textSize="18sp" />
+</LinearLayout>
+</ScrollView>

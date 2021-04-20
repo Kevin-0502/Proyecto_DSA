@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/white">
+
+    <ImageView
+        android:src="@drawable/service6"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/tratamientos_de_blanqueamiento"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#86bbe5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#2C2C2C"
+        android:fontFamily="@font/nunito"
+        android:textSize="18sp"
+        android:text="@string/son_procedimientos_no_invasivos_que_ayudan_a_eliminar_las_manchas_y_a_recuperar_el_color_natural_de_los_dientes"
+        />
+</LinearLayout>
+</ScrollView>

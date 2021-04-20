@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/tip3"
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tip5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/reduce_el_consumo_de_alcohol"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:textColor="#2C2C2C"
+            android:text="@string/el_alcohol_con_c_tricos_afecta_al_ph_de_la_boca_corrompiendo_el_esmalte_de_los_dientes_la_acidez_de_la_boca_debe_permanecer_entre_5_6_y_7_6_de_ph_con_el_consumo_del_alcohol_los_niveles_de_ph_disminuye_por_debajo_de_4_5_favoreciendo_los_problemas_de_caries_y_el_aumento_de_la_erosi_n_dental"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
