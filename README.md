@@ -7,10 +7,10 @@ Kevin Miguel Jiménez Hernández JH200303
 William Obed Gutierrez Flores GF190083
 
 Link Manual de Usuario:
-https://drive.google.com/file/d/1-KTxMrJnc59yrVMYGMuUhh7L2WCMi70L/view?usp=sharing
+https://drive.google.com/file/d/1Y--K94_upWQsaLtoIatjpGCqDqdO1h6b/view?usp=sharing
 
 Link Manual Técnico:
-https://drive.google.com/file/d/1ol-q_IDjPIFX2MQIC3UrKO8pWwVoa7sm/view?usp=sharing
+https://drive.google.com/file/d/1GgD2VehxKplHG6qO6vMsL4kMbg8JaDW5/view?usp=sharing
 
 Link de trello:
 https://trello.com/invite/b/6qFfZsXb/d324dba4ab5df58d9a94a3c8190708c0/proyecto-dsa

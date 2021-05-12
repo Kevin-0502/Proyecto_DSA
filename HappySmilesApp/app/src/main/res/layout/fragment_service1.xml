@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -7,16 +8,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
-        android:paddingRight="16dp"
-        android:background="@color/white">
+        android:paddingTop="16dp">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="250dp"
-            android:layout_weight="1"
+            android:layout_height="300dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:scaleType="centerCrop"
             android:src="@drawable/service1" />
 
@@ -26,18 +26,103 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/nunito_semibold"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:text="@string/examen_bucodental_inicial"
             android:textAlignment="center"
             android:textColor="#86bbe5"
             android:textSize="30sp" />
 
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:fontFamily="@font/nunito"
-            android:textColor="#2C2C2C"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:text="@string/el_examen_bucal_inicial_incluye_un_examen_dental_un_diagn_stico_y_las_recomendaciones_correspondientes_al_tratamiento_se_pueden_realizar_durante_el_procedimiento_radiograf_as_para_obtener_un_diagn_stico_adecuado_de_los_dientes"
+            android:textColor="#2C2C2C"
             android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/whiteview"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/gradientcard" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/brows_title"
+                    style="@style/ServicesTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/nunito_sans_bold"
+                    android:text="Agenda una cita:"
+                    android:textAlignment="center"
+                    android:textColor="#BE01579B"
+                    android:textColorLink="#6E2626"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/date_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="26dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/nunito_sans"
+                    android:hint="Date"
+                    android:inputType="date"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#01579B"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/time_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/nunito_sans"
+                    android:hint="Time"
+                    android:inputType="time"
+                    android:padding="6dp"
+                    android:textColor="#2C2C2C"
+                    android:textColorHint="#01579B"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/schedule_button"
+                    android:layout_width="151dp"
+                    android:layout_height="62dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/nunito_sans_semibold"
+                    android:text="Agendar"
+                    android:textColor="@color/lightblue5"
+                    android:textColorLink="#000000"
+                    android:textSize="14sp"
+                    app:cornerRadius="15dp" />
+            </LinearLayout>
+        </FrameLayout>
     </LinearLayout>
 </ScrollView>

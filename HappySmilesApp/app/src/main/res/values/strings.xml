@@ -9,8 +9,8 @@
     <string name="contactbtn">Contáctanos</string>
     <string name="textview1">TextView</string>
     <string name="examen_bucodental_inicial">Examen Bucodental Inicial</string>
-    <string name="el_examen_bucal_inicial_incluye_un_examen_dental_un_diagn_stico_y_las_recomendaciones_correspondientes_al_tratamiento_se_pueden_realizar_durante_el_procedimiento_radiograf_as_para_obtener_un_diagn_stico_adecuado_de_los_dientes">El examen bucal inicial incluye un examen dental, un diagnóstico y las recomendaciones correspondientes al tratamiento. Se pueden realizar durante el procedimiento radiografías para obtener un diagnóstico adecuado de los dientes.</string>
-    <string name="procedimientos_de_obturaci_n_o_llenado_dental">Procedimientos de obturación o llenado dental</string>
+    <string name="el_examen_bucal_inicial_incluye_un_examen_dental_un_diagn_stico_y_las_recomendaciones_correspondientes_al_tratamiento_se_pueden_realizar_durante_el_procedimiento_radiograf_as_para_obtener_un_diagn_stico_adecuado_de_los_dientes">El examen bucal inicial incluye un examen dental, un diagnóstico y las recomendaciones correspondientes al tratamiento. \nSe pueden realizar durante el procedimiento radiografías para obtener un diagnóstico adecuado de los dientes.</string>
+    <string name="procedimientos_de_obturaci_n_o_llenado_dental">Procedimientos de llenado dental</string>
     <string name="la_mayor_a_de_las_personas_necesitan_al_menos_un_empaste_dental_durante_su_vida_generalmente_se_utilizan_con_mayor_frecuencia_para_tratar_las_caries_aunque_tambi_n_son_utilizados_para_reparar_dientes_que_se_han_desgastado_con_el_tiempo">La mayoría de las personas necesitan al menos un empaste dental durante su vida. Generalmente se utilizan con mayor frecuencia para tratar las caries, aunque también son utilizados para reparar dientes que se han desgastado con el tiempo.</string>
     <string name="extracciones_dentales">Extracciones dentales</string>
     <string name="la_extracci_n_dental_es_el_retiro_de_un_diente_de_su_cavidad_alveolar_del_hueso_maxilar_o_mandibular_si_un_diente_se_ha_roto_o_da_ado_por_caries_su_dentista_intentar_arreglarlo_con_una_obturaci_n_dental_una_corona_u_otro_tratamiento">La extracción dental es el retiro de un diente de su cavidad alveolar del hueso maxilar o mandibular. Si un diente se ha roto o dañado por caries, su dentista intentará arreglarlo con una obturación dental, una corona u otro tratamiento.</string>
@@ -39,5 +39,18 @@
     <string name="visite_el_dentista_cada_6_meses">Visite el dentista cada 6 meses</string>
     <string name="es_recomendado_que_visite_a_su_dentista_al_menos_2_veces_al_a_o_para_una_limpieza_y_m_s_frecuentemente_si_usted_tiene_problemas_en_las_enc_as_o_caries_extensas_si_usted_est_sufriendo_de_dolor_de_muelas_o_sangrado_de_enc_as_haga_una_cita_lo_m_s_pronto_posible_su_dentista_puede_ayudar_a_controlar_y_tratar_los_s_ntomas_y_causas">Es recomendado que visite a su dentista al menos 2 veces al año para una limpieza, y más frecuentemente si usted tiene problemas en las encías o caries extensas. Si usted está sufriendo de dolor de muelas o sangrado de encías haga una cita lo más pronto posible, su dentista puede ayudar a controlar y tratar los síntomas y causas.</string>
     <string name="todo">TODO</string>
+    <string name="date">Date</string>
+    <string name="agenda_una_cita">Agenda una cita:</string>
+    <string name="time">Time</string>
+    <string name="agendar">Agendar</string>
+    <string name="citas_virtuales">Citas virtuales</string>
+    <string name="crea_una_cuenta">Crea una cuenta</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="registrate">Registrate</string>
+    <string name="log_in">Log In</string>
+    <string name="bienvenidos">Bienvenidos</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="somos_un_grupo_de_profesionales_especializados_en_las_distintas_reas_de_la_odontolog_a_y_que_tenemos_como_principal_objetivo_cuidar_tu_salud_dental">Somos un grupo de profesionales, especializados en las distintas áreas de la odontología y que tenemos como principal objetivo cuidar tu salud dental.</string>
 </resources>
 

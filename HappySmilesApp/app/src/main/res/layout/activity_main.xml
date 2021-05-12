@@ -7,25 +7,24 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/servicesbtn"
-        android:text="@string/servicesbtn"
+        style="@style/MainButtonStyle"
+        android:text="Servicios presenciales"
         app:icon="@drawable/dentist"
         app:layout_constraintBottom_toTopOf="@+id/myappointmentsid"
         app:layout_constraintEnd_toStartOf="@+id/scheduledateid"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        style="@style/MainButtonStyle"
-         />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/scheduledateid"
-        android:text="@string/scheduledatebtn"
+        style="@style/MainButtonStyle"
+        android:text="Agendar cita virtual"
         app:icon="@drawable/appoitment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/servicesbtn"
-        app:layout_constraintTop_toTopOf="@+id/servicesbtn"
-        style="@style/MainButtonStyle"/>
+        app:layout_constraintTop_toTopOf="@+id/servicesbtn" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/myappointmentsid"

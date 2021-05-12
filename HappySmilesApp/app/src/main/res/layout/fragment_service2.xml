@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -7,40 +8,124 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/white"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingTop="16dp"
-        android:paddingRight="16dp"
-        android:background="@color/white">
+        android:paddingTop="16dp">
 
-    <ImageView
-        android:src="@drawable/service2"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        android:layout_weight="1"
-        />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/service2" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/nunito_semibold"
-        android:text="@string/procedimientos_de_obturaci_n_o_llenado_dental"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:textColor="#86bbe5"
-        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/procedimientos_de_obturaci_n_o_llenado_dental"
+            android:textAlignment="center"
+            android:textColor="#86bbe5"
+            android:textSize="30sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="@font/nunito"
-        android:textSize="18sp"
-        android:textColor="#2C2C2C"
-        android:text="@string/la_mayor_a_de_las_personas_necesitan_al_menos_un_empaste_dental_durante_su_vida_generalmente_se_utilizan_con_mayor_frecuencia_para_tratar_las_caries_aunque_tambi_n_son_utilizados_para_reparar_dientes_que_se_han_desgastado_con_el_tiempo"
-        />
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/la_mayor_a_de_las_personas_necesitan_al_menos_un_empaste_dental_durante_su_vida_generalmente_se_utilizan_con_mayor_frecuencia_para_tratar_las_caries_aunque_tambi_n_son_utilizados_para_reparar_dientes_que_se_han_desgastado_con_el_tiempo"
+            android:textColor="#2C2C2C"
+            android:textSize="18sp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/whiteview"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:background="@drawable/gradientcard" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/brows_title"
+                    style="@style/ServicesTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/nunito_sans_bold"
+                    android:text="Agenda una cita:"
+                    android:textAlignment="center"
+                    android:textColor="#BE01579B"
+                    android:textColorLink="#6E2626"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/date_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="26dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/nunito_sans"
+                    android:hint="Date"
+                    android:inputType="date"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#01579B"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/time_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:fontFamily="@font/nunito_sans"
+                    android:hint="Time"
+                    android:inputType="time"
+                    android:padding="6dp"
+                    android:textColor="#2C2C2C"
+                    android:textColorHint="#01579B"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/schedule_button"
+                    android:layout_width="151dp"
+                    android:layout_height="62dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/nunito_sans_semibold"
+                    android:text="Agendar"
+                    android:textColor="@color/lightblue5"
+                    android:textColorLink="#000000"
+                    android:textSize="14sp"
+                    app:cornerRadius="15dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
 </ScrollView>

@@ -15,8 +15,52 @@
         <item name="cornerRadius">8dp</item>
         <item name="iconGravity">top</item>
     </style>
+
     <style name="LoginButtonStyle">
         <item name="android:backgroundTint">@drawable/loginbtn_styles</item>
         <item name="android:textColor">@color/white</item>
     </style>
+
+
+    <style name="ServicesButtonStyle">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+
+    </style>
+
+    <style name="ServicesTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_marginTop">136dp</item>
+
+    </style>
+
+    <style name="AppointmentTitleTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="AppointmentTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:layout_marginTop">136dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
 </resources>
+
+
+
+
+
+
+
+

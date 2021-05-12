@@ -12,10 +12,10 @@
         android:layout_weight="1"/>
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/dot_indicator"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabBackground="@color/white"
-        android:id="@+id/dot_indicator" />
+        android:layout_height="1dp"
+        app:tabBackground="@drawable/gradientcard"/>
 
 
 </LinearLayout>
